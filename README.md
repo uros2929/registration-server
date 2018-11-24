@@ -2,12 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
-Angular FormBuilder and Validators,
-Bootstrap version 4.0.0,
-Mongoose --> object modeling,
-mLab --> database
+* Angular FormBuilder and Validators,
+* Bootstrap version 4.0.0,
+* Mongoose --> object modeling,
+* mLab --> database
 
-##Running project
+## Running project
 
 In terminal in folder registration run `ng s -o` for a dev server.
 
