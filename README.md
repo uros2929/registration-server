@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
+Angular FormBuilder and Validators,
+Bootstrap version 4.0.0,
+Mongoose --> object modeling,
+mLab --> database
+
+##Running project
+
+In terminal in folder registration run `ng s -o` for a dev server.
+
+Than in terminal in folder server run `node server`, to run server for database.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
