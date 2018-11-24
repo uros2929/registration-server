@@ -1,3 +1,47 @@
-<p>
-  main works!
-</p>
+<div class="container mainDiv">
+  <h1>Hello from site !!!</h1>
+  <button (click)="logOut()" class="btn btn-outline-light">Log out</button>
+  <button (click)="showInfoModal(userInfo)" class="btn btn-outline-light">User info</button>
+</div>
+
+
+
+<div class="slideshow-container">
+<div class="mySlides">
+  <img src="../../assets/img_angular.png" style="width:100%" alt="ANGULAR">
+</div>
+
+<div class="mySlides">
+  <img src="../../assets/img_JavaScript.png" style="width:100%" alt="JavaScript">
+</div>
+
+<div class="mySlides">
+  <img src="../../assets/img_bootstrap.png" style="width:100%" alt="Bootstrap">
+</div>
+<div class="mySlides">
+  <img src="../../assets/img_mLab.png" style="width:100%" alt="Mlab">
+</div>
+
+<a class="prev" (click)='plusSlides(-1)' >&#10094;</a>
+<a class="next" (click)='plusSlides(+1)'>&#10095;</a>
+</div>
+
+
+
+<div class="modal userInfo" #userInfo>
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3>User informations</h3>
+      <span (click)="hideInfoModal(userInfo)">&times;</span>
+    </div>
+    <div class="modal-body">
+      <h3>Name: {{name}}</h3>
+      <h3>Last name: {{lastName}}</h3>
+      <h3>State: {{state}}</h3>
+      <h3>City: {{city}}</h3>
+    </div>
+  </div>
+</div>
+</div>
+
